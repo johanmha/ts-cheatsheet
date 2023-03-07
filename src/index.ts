@@ -1,8 +1,7 @@
-let sales: number = 123_456_789;
-let courser: string = 'TypeScript';
-let is_published: boolean = true;
-let level;
+// const small = 1;
+// const medium = 2;
+// const large = 3;
 
-function render(document) {
-    console.log(document)
-}
+const enum Size {Small = 1, Medium, Large}
+let mySize = Size.Medium;
+console.log(mySize)
