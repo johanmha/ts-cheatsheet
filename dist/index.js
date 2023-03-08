@@ -1,6 +1,9 @@
 "use strict";
-let textBox = {
-    drag: () => { },
-    resize: () => { }
-};
+function greet(name) {
+    if (name)
+        console.log(name.toUpperCase);
+    else
+        console.log('Hola');
+}
+greet(null);
 //# sourceMappingURL=index.js.map
