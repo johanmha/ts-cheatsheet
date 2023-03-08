@@ -1,6 +1,8 @@
-//Tell typescript what tye is coming if you know more then typescript
+function render(document: unknown) {
+    // Narrowing
+    if (typeof document === 'string') document.toUpperCase;
 
-// let phone = document.getElementById('phone') as HTMLInputElement;
-let phone = <HTMLInputElement>document.getElementById('phone');
-
-phone.value;
+    document.move();
+    document.fly();
+    document.whateverWeWant();
+}
