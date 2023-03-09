@@ -1,6 +1,10 @@
 "use strict";
-function echo(value) {
-    return value;
-}
-echo({ name: '1' });
+let product = {
+    name: 'car',
+    price: 10
+};
+let product2 = {
+    name: 'a',
+    price: 1
+};
 //# sourceMappingURL=index.js.map
