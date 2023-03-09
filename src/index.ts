@@ -1,13 +1,5 @@
-function reject(message: string): never {
-    throw new Error(message);
+function wrapInArray<T>(value: T) {
+    return [value];
 }
 
-function processEvents(): never {
-    while (true) {
-        // Read message from a queue
-    }
-}
-
-// processEvents();
-reject('...');
-console.log('Hello World');
+let numbers = wrapInArray(1);
