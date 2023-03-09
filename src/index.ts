@@ -1,5 +1,6 @@
 // Om types // https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript
 // Typescript har egne type mappings innebygd. Se docs (google typescript utility types)
+// https://www.typescriptlang.org/docs/handbook/utility-types.html
 
 interface Product {
     name: string;
